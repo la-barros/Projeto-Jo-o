@@ -1,7 +1,7 @@
 class Projoao_requests
    
     def find_projoao
-       ProJoao.get('/?userId=1')
+       ProJoao.get('/posts?userId=1')
     end
 
 
